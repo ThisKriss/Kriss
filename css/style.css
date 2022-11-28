@@ -1,0 +1,137 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slaider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.div{
+    border: 1px solid #8e6f84;
+    position: relative;
+    width: 350px;
+    height: 700px;
+    margin: 30px;
+}
+.top-div{
+    background-color: rgb(255, 248, 253);
+    width: 100%;
+    height: 500px;
+}
+.top-div_skid-fav{
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+.top-div_skidka{
+    position: absolute;
+    border: 1px dashed hsl(5deg 64% 53%);
+    color: hsl(354deg 52% 43%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    left: 15px;
+    bottom: 0px;
+}
+.top-div_favorite{
+    position: absolute;
+    font-size: 30px;
+    right: 30px;
+    bottom: 0px;
+    cursor: pointer;
+}
+.top-div_img{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.top-div_down{
+    width: 100%;
+    height: 65px;
+}
+.top-div_top{
+    position: absolute;
+    color: #8e6f84;
+    background-color: hsl(323deg 13% 81%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    left: 15px;
+}
+.bottom-div{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.bottom-div_up{
+    position: relative;
+    display: flex;
+    height: 50%;
+}
+.bottom-div_name{
+    position: relative;
+    display: flex;
+    width: 75%;
+    text-align: center;
+    color: rgb(63, 0, 0);
+    font-size: 23px;
+    padding: 10px 0px 0px 10px;
+    font-weight: bold;
+    align-items: center;
+}
+.bottom-div_cost{
+    position: relative;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 10px 10px 0px 0px;
+    font-size: 25px;
+}   
+.bottom-div_cost-old{
+    text-decoration: dashed;
+    color: gray;
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 0, 0); 
+}
+.bottom-div_cost-new{
+    color: black;
+    font-weight: bold;
+}
+.bottom-div_center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 25%;
+
+}
+.bottom-div_button-buy{
+    position: relative;
+    background-color: hsl(319deg 12% 50%);
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 15px 100px 15px 100px;
+}
+
+.bottom-div_down{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+}
