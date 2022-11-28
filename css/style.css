@@ -99,12 +99,12 @@ div{
 }   
 .bottom-div_cost-old{
     text-decoration: dashed;
-    color: gray;
+    color: rgb(100, 89, 89);
     text-decoration: line-through;
-    text-decoration-color: rgb(255, 0, 0); 
+    text-decoration-color: rgb(138, 5, 5); 
 }
 .bottom-div_cost-new{
-    color: black;
+    color: rgb(29, 26, 26);
     font-weight: bold;
 }
 .bottom-div_center{
